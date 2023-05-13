@@ -23,11 +23,6 @@ function App() {
         </div>
       </SummaryProvider>
     </FormProvider>
-      
-
-    
-    
-  
   );
 }
 
