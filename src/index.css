@@ -5,3 +5,56 @@
 .card{
     margin: 20px;
 }
+.summaryMainDiv{
+    width: 60%;
+    margin: auto;
+    margin-top: 3%;
+    text-align: center;
+    background-color: #E8A87C;
+    padding: 3%;
+    border-radius: 9px;
+}
+.allSummaryBtns:hover{
+    background-color: orange;
+    color: black;
+    
+}
+.allSummaryBtns{
+    background-color: blueviolet;
+    border: 0;
+}
+.summaryMainDiv>h1{
+    color: #FEF2F4;
+    margin-bottom: 5%;
+}
+.summaryMainDiv>button{
+    background-color: #D14D72;
+    border: 0;
+}
+.formMainDiv{
+    background-color: #088395;
+    color: #00FFCA;
+    margin:auto;
+    width: 90%;
+    padding: 4%;
+    border-radius: 9px;
+    margin-top: 4%;
+    text-align: center;
+}
+.formMainDiv>h1{
+    text-align: center;
+    margin-bottom: 3%;
+    color: #F6BA6F;
+}
+.insideForm{
+    margin: 2%;
+}
+.formBtn{
+    background-color: #fc5c4d;
+    border: 0;
+    margin-top: 2%;
+    
+}
+.formBtn:hover{
+    background-color: #59c277;
+}

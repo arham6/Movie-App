@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import MovieApp from './components/MovieApp';
 import SummaryProvider from './context/SummaryProvider';
-import { FormContext } from './context/FormProvider';
+import FormProvider from './context/FormProvider';
 
 function App() {
   
@@ -16,12 +16,14 @@ function App() {
   },[])
 
   return (
-
+    <FormProvider>
       <SummaryProvider>
         <div>
           {apiData && <MovieApp apiData={apiData}/>}
         </div>
       </SummaryProvider>
+    </FormProvider>
+      
 
     
     

@@ -1,19 +1,19 @@
-// import { createContext, useState } from "react";
+import { createContext, useState } from "react";
 
-// export const FormContext=createContext(null);
+export const FormContext=createContext(null);
 
-// const FormProvider=({children})=>{
+const FormProvider=({children})=>{
 
-//     const [formDirect,setFormDirect]=useState(null);
+    const [formDirect,setFormDirect]=useState(null);
 
-//     return(
-//         <FormContext.Provider value={{
-//             formDirect,
-//             setFormDirect
-//         }}>
-//             {children}
-//         </FormContext.Provider>
-//     )
-// }
+    return(
+        <FormContext.Provider value={{
+            formDirect,
+            setFormDirect
+        }}>
+            {children}
+        </FormContext.Provider>
+    )
+}
 
-// export default FormProvider;
+export default FormProvider;
